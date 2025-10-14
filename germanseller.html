@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Power Spa</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <link rel="icon" href="/images/logo.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <div class="header-container">
+        <div class="h-image">
+          <a href="#home">
+            <img src="/images/logo.png" alt="logo" />
+          </a>
+        </div>
+
+        <div class="links">
+          <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+
+          <nav class="sidebar-nav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#facility">Facility</a></li>
+              <li><a href="#story">Business Stories</a></li>
+              <li><a href="#crew">Our Team</a></li>
+              <li><a href="#review">Testimonials</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <div class="nav-link">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#facility">Facility</a></li>
+              <li><a href="#story">Business Stories</a></li>
+              <li><a href="#crew">Our Team</a></li>
+              <li><a href="#review">Testimonials</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-button">
+            <button onclick={openContact()}>Contact Now <span>&#8594;</span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Here Section -->
+    <div class="hero-container" id="home">
+      <div class="h-leaf">
+        <img src="/images/leaf.png" alt="leaf" />
+      </div>
+
+      <div class="h-content">
+        <div>
+          <h1 class="h1-text">Spa & Beauty Management by POWER SPA</h1>
+        </div>
+        <div class="c2-text">
+          <p>
+            We manage the spa, the beauty salon and health club at your hotel
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section-->
+    <section class="about-container scroll-section" id="about">
+      <div class="container">
+        <div class="about-main">
+          <h2 class="h2-about-before">We Are Power Spa</h2>
+
+          <div class="about-image">
+            <img src="/images/woman-spa.png" alt="woman-spa" />
+          </div>
+
+          <div div class="about-content">
+            <div>
+              <h2 class="heading-h2">We Are Power Spa</h2>
+            </div>
+
+            <div>
+              <h3 class="about-subheading">A GLOBAL COMPANY</h3>
+            </div>
+
+            <div class="about-description">
+              <div class="about-paragraph">
+                <p>
+                  We blend German management excellence and quality standards
+                  with rich Egyptian expertise to create exceptional spa
+                  experiences. Our unique partnership, with managers from
+                  Germany and a local partner with extensive experience in
+                  Egypt, allows us to offer a fusion of precision and cultural
+                  richness.
+                </p>
+              </div>
+
+              <div class="about-paragraph">
+                <p>
+                  Your spa will benefit from the highest quality standards,
+                  rigorously tested quality control processes and sophisticated
+                  visual and online marketing strategies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="a-leaf">
+          <img src="/images/leaf.png" alt="leaf" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Facility Section -->
+    <section class="rules-container" id="facility">
+      <div class="container">
+        <div class="rules-main">
+          <div class="r-title">
+            <h2>Our Facility</h2>
+          </div>
+
+          <div class="rules">
+            <div class="upper-part">
+              <div class="rules-card-1">
+                <div class="rule-image">
+                  <img src="/images/rule1.png" alt="rule1" />
+                </div>
+                <div class="rule-content">
+                  <h3>01.</h3>
+                  <p>
+                    We propose to manage the health club, spa area, and beauty
+                    salon to the highest standards.
+                  </p>
+                </div>
+              </div>
+
+              <div class="rules-card-1">
+                <div class="rule-image">
+                  <img src="/images/rule2.png" alt="rule2" />
+                </div>
+                <div class="rule-content">
+                  <h3>02.</h3>
+                  <p>
+                    We will equip the spa and beauty salon to match your hotel's
+                    esteemed reputation, including outfitting massage rooms with
+                    the latest technologies.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="lower-part">
+              <div class="rules-card-2">
+                <div class="rule-content">
+                  <h3>03.</h3>
+                  <p>
+                    All staff members will wear professional uniforms with name
+                    badges.
+                  </p>
+                </div>
+
+                <div class="rule-image">
+                  <img src="/images/rule3.png" alt="rule3" />
+                </div>
+              </div>
+
+              <div class="rules-card-2">
+                <div class="rule-content">
+                  <h3>04.</h3>
+                  <p>
+                    We offer a premium hygiene concept that guarantees a clean
+                    and safe environment for all guests.
+                  </p>
+                </div>
+
+                <div class="rule-image">
+                  <img src="/images/rule4.png" alt="rule4" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- business Stories Section-->
+    <section class="business-stories" id="story">
+      <div class="stories-leaf">
+        <img src="/images/leaf.png" alt="leaf" />
+      </div>
+
+      <div class="container">
+        <div class="stories-main">
+          <h2 class="h2-stories-before">
+            The management heads Susanne Hassepass
+          </h2>
+          <div class="stories-image">
+            <img src="/images/image1.png" alt="business-stories" />
+          </div>
+
+          <div class="stories-content">
+            <h2>The management heads Susanne Hassepass</h2>
+            <h3>BUSINESS HISTORY</h3>
+
+            <div class="stories-p">
+              <p>
+                She is a seasoned Spa Quality Manager with experience in
+                overseeing the standards and operations of some of the largest
+                and most prestigious hotels.
+              </p>
+              <p>
+                Your spa will benefit from the highest quality standards,
+                rigorously tested quality control processes and sophisticated
+                visual and online marketing strategies.
+              </p>
+              <p>
+                She is a video marketing expert, specializing in conceptualizing
+                and producing promotional videos while developing comprehensive
+                online marketing strategies for businesses in both B2B and B2C
+                sectors. Additionally, she has produced extensive trailers and
+                campaigns for Germany's leading TV broadcasters.
+              </p>
+              <p>
+                As a consultant, she has supported numerous digital startups in
+                expanding their reach, monetizing their services, and fostering
+                customer loyalty.
+              </p>
+              <p>
+                She also serves as a commercial judge, a position reserved for
+                reputable and financially sound business professionals who are
+                nominated and appointed based on their excellent standing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ahmed Saad – Egypt -->
+    <section class="information-container">
+      <div class="container">
+        <div class="information-main">
+          <div class="information-inner">
+            <div class="info-title">
+              <h2>Ahmed Saad – Egypt</h2>
+            </div>
+
+            <div class="info-points">
+              <div class="info-block">
+                <img src="/images/Star.svg" alt="star" />
+                <p>Mirage bay hotel Hurghada</p>
+              </div>
+
+              <div class="info-block">
+                <img src="/images/Star.svg" alt="star" />
+                <p>Naama heights hotel sharmelsheikh</p>
+              </div>
+
+              <div class="info-block">
+                <img src="/images/Star.svg" alt="star" />
+                <p>Blue house Marsaalam hotel</p>
+              </div>
+
+              <div class="info-block">
+                <img src="/images/Star.svg" alt="star" />
+                <p>Marina view Portoghalb hotel</p>
+              </div>
+
+              <div class="info-block">
+                <img src="/images/Star.svg" alt="star" />
+                <p>Sand beach hotel Hurghada</p>
+              </div>
+
+              <div class="info-block">
+                <img src="/images/Star.svg" alt="star" />
+                <p>Protels Crystal Beach Resort & Spa</p>
+              </div>
+
+              <div class="info-block">
+                <img src="/images/Star.svg" alt="star" />
+                <p>Floating hotels Luxor & Aswan</p>
+              </div>
+
+              <div class="info-block">
+                <img src="/images/Star.svg" alt="star" />
+                <p>Real estate rental</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-image">
+            <img src="/images/image2.png" alt="Ahmed Saad" />
+          </div>
+
+          <h2 class="h2-info-before">Ahmed Saad – Egypt</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facility Section -->
+    <section class="facility-container">
+      <div class="container">
+        <div class="facility-main">
+          <div class="f-title">
+            <h2>Facility</h2>
+          </div>
+
+          <div class="facility-card">
+            <div class="card">
+              <div class="card-image">
+                <img src="/images/facility1.png" alt="facility1" />
+              </div>
+              <div class="card-content">
+                <h3>Operational Excellence</h3>
+                <p>
+                  Having German managers, we deliver meticulous German
+                  standards, ensuring global tourist satisfaction
+                </p>
+                <p>
+                  We bring extensive experience in delighting customers and
+                  organizing seamless operations
+                </p>
+                <p>
+                  This meticulous method enhances customer satisfaction and
+                  loyalty, ensuring guests return and recommend your hotel.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-image">
+                <img src="/images/facility2.png" alt="facility2" />
+              </div>
+              <div class="card-content">
+                <h3>High-Quality Marketing</h3>
+                <p>
+                  Our german shareholders business background and specialization
+                  in video production and online marketing ensures unparalleled
+                  content. With its agencies it produces advertisements for the
+                  leading TV stations in Germany and your hotel will profit from
+                  this
+                </p>
+                <p>
+                  Our sustainable video and image content makes the Beauty & Spa
+                  online presence stand out and shine with positive reviews.
+                </p>
+                <p>
+                  A strong online presence solidifies the hotel's brand and
+                  market position, attracting more guests and boosting overall
+                  satisfaction.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-image">
+                <img src="/images/facility3.png" alt="facility3" />
+              </div>
+              <div class="card-content">
+                <h3>Professional Staffing</h3>
+                <p>
+                  Our German staff train and coach the team on-site to ensure
+                  exceptional service quality and provide guests with a sense of
+                  security and confidence.
+                </p>
+                <p>
+                  The German leadership of the spa positively impacts the
+                  hotel's reputation.
+                </p>
+                <p>
+                  This leadership quickly becomes a topic of conversation among
+                  guests, especially in recommendations.
+                </p>
+                <p>
+                  A high-quality elevates the brand image and market position of
+                  the hotel, making it more attractive to discerning travelers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="facility-leaf">
+        <img src="/images/leaf.png" alt="leaf" />
+      </div>
+    </section>
+
+    <!-- Crew Section -->
+    <section class="crew-container" id="crew">
+      <div class="container">
+        <div class="crew-main">
+          <h2 class="h2-crew-before">Crew</h2>
+
+          <div class="crew-image">
+            <img src="/images/crew.png" alt="crew" />
+          </div>
+
+          <div class="crew-content">
+            <h2>Crew</h2>
+
+            <div class="crew-p">
+              <p>
+                Our team includes highly experienced physical therapists, both
+                foreigners and Egyptians, all graduates of physical education
+                colleges.
+              </p>
+              <p>
+                Our marketing team, comprising both male and female employees,
+                has extensive experience in guest relations.
+              </p>
+              <p>
+                Our management team has top-tier expertise in guest interactions
+                and problem resolution.
+              </p>
+              <p>
+                We personally oversee on-site processes for the first few months
+                to ensure the highest satisfaction.
+              </p>
+              <p>
+                We use only the finest materials for all health club activities,
+                ensuring a premium guest experience.
+              </p>
+              <p>
+                We actively market our services and your hotel within
+                Scandinavian countries, enhancing international reach and
+                reputation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="review-container" id="review">
+      <div class="review-leaf">
+        <img src="/images/leaf.png" alt="leaf" />
+      </div>
+
+      <div>
+        <div class="review-title">
+          <h2>What our Client Say</h2>
+        </div>
+
+        <div class="slider-wrapper">
+          <div class="reviews">
+            <div class="review-card">
+              <div class="review-data">
+                <div class="vector-image">
+                  <img src="/images/Vector 10.png" alt="6" />
+                  <img src="/images/Vector 10.png" alt="6" />
+                </div>
+
+                <div class="review-text-container">
+                  <p class="review-text">
+                    We have been working with this team for over a year, and
+                    their expertise in managing our spa, beauty salon, and
+                    health club has been exceptional. The level of
+                    professionalism, attention to detail, and commitment to
+                    quality is unparalleled.
+                  </p>
+                  <button class="read-more-btn">Read more</button>
+                </div>
+
+                <div class="star-image">
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                </div>
+              </div>
+
+              <div class="person-info">
+                <img src="/images/review1.png" alt="r1" />
+                <h2>Robert Fox</h2>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-data">
+                <div class="vector-image">
+                  <img src="/images/Vector 10.png" alt="6" />
+                  <img src="/images/Vector 10.png" alt="6" />
+                </div>
+                <div class="review-text-container">
+                  <p class="review-text">
+                    Hi Lilly I'm so thankful to meet you! You are a Very strong
+                    and good person! Thank you for the unbelievable, incredible
+                    massages - wow You are any massage - good
+                  </p>
+                  <button class="read-more-btn">Read more</button>
+                </div>
+
+                <div class="star-image">
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                </div>
+              </div>
+
+              <div class="person-info">
+                <img src="/images/review2.png" alt="r2" />
+                <h2>Hug, Andrea</h2>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-data">
+                <div class="vector-image">
+                  <img src="/images/Vector 10.png" alt="6" />
+                  <img src="/images/Vector 10.png" alt="6" />
+                </div>
+                <div class="review-text-container">
+                  <p class="review-text">
+                    We have been working with this team for over a year, and
+                    their expertise in managing our spa, beauty salon, and
+                    health club has been exceptional. The level of
+                    professionalism, attention to detail, and commitment to
+                    quality is unparalleled.
+                  </p>
+                  <button class="read-more-btn">Read more</button>
+                </div>
+
+                <div class="star-image">
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                </div>
+              </div>
+
+              <div class="person-info">
+                <img src="/images/review3.png" alt="r3" />
+                <h2>Marvin McKinney</h2>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-data">
+                <div class="vector-image">
+                  <img src="/images/Vector 10.png" alt="6" />
+                  <img src="/images/Vector 10.png" alt="6" />
+                </div>
+                <div class="review-text-container">
+                  <p class="review-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </p>
+                  <button class="read-more-btn">Read more</button>
+                </div>
+
+                <div class="star-image">
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                  <img src="/images/star.png" alt="star" />
+                </div>
+              </div>
+
+              <div class="person-info">
+                <img src="/images/review4.jpeg" alt="43" />
+                <h2>Joan Deo</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-container">
+      <div class="f-image-container">
+        <div class="f-text">
+          <h3>
+            We are looking forward to the <br />opportunity to show you how
+            POWER<br />
+            SPA can introduce a new era of<br />
+            prosperity and distinction to your hotel<br />
+            spa & beauty area.
+          </h3>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <div class="f-content-main">
+          <div class="content-inner-1">
+            <div class="f-logo">
+              <a href="#home"><img src="/images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="social-link">
+              <div class="img-outer">
+                <a href="https://www.instagram.com/"
+                  ><img src="/images/Social 1.svg" alt="facebook"
+                /></a>
+              </div>
+              <div class="img-outer">
+                <a href="https://www.facebook.com/"
+                  ><img src="/images/Social 2.svg" alt="instagram"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-inner-2">
+            <div class="f-contact">
+              <div class="link-title">
+                <h2>Support</h2>
+                <hr />
+              </div>
+              <div class="link-footer">
+                <ul>
+                  <a href="/privacy-policy.html"><li>Privacy Policy</li></a>
+                  <a href="/contact.html"><li>Contact</li></a>
+                </ul>
+              </div>
+            </div>
+
+            <div class="f-contact">
+              <div class="link-title">
+                <h2>Contact</h2>
+                <hr />
+              </div>
+              <div class="contact-detail">
+                <div class="sms-div">
+                  <img src="/images/sms.png" alt="sms" />
+                  <a href="mailto:contact@power-spa.de">contact@power-spa.de</a>
+                </div>
+
+                <div class="phone-div">
+                  <img src="/images/call.png" alt="call" />
+                  <a href="tel:+20 10 97929581">+20 10 97929581</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <hr />
+          <h3>© 2024 by All right reserved.</h3>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

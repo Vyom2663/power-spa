@@ -1,0 +1,1419 @@
+/* ****************************************************************
+Hero Container
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .hero-container {
+    /* min-height: 80vh; */
+    padding: 0px 0px 0px 0px;
+  }
+
+  .header-container {
+    /* max-width: 1280px; */
+    margin: 0 40px;
+  }
+
+  .h-content {
+    max-width: 700px;
+  }
+
+  .h-content .h1-text {
+    font-size: 48px;
+  }
+
+  .h-content .c2-text p {
+    font-size: 22px;
+  }
+
+  .nav-link ul {
+    gap: 40px;
+  }
+
+  .h-leaf {
+    top: 40vh;
+    margin: 0 0 0 -70px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .h-content .c2-text p {
+    font-size: 19px;
+  }
+
+  .h-leaf {
+    margin: 0 0 0 -80px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .header-container {
+    margin: 0 20px;
+  }
+
+  .links {
+    justify-content: normal;
+    margin: 0 20px;
+  }
+
+  .h-content .h1-text {
+    font-size: 42px;
+  }
+
+  .nav-link {
+    margin: 0 0;
+  }
+
+  .nav-link ul {
+    gap: 30px;
+  }
+
+  .h-leaf {
+    margin: 0 0 0 -90px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Check 768px and add css here */
+
+  .hero-container {
+    min-height: 90vh;
+    background-position: center center;
+  }
+  .header-container {
+    justify-content: space-between;
+  }
+
+  .header {
+    padding: 10px 0;
+  }
+
+  .h-image a img {
+    max-width: 80px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-link,
+  .nav-button {
+    display: none;
+  }
+
+  .h-content {
+    max-width: 700px;
+    top: 65%;
+  }
+
+  .h-content .h1-text {
+    font-size: 36px;
+  }
+
+  .h-content .c2-text p {
+    font-size: 18px;
+  }
+
+  .h-leaf {
+    margin: 0 0 0 -100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .header-container {
+    margin: 0 40px;
+  }
+
+  .h-content {
+    max-width: 400px;
+  }
+
+  .h-content .h1-text {
+    font-size: 30px;
+  }
+
+  .menu-toggle {
+    font-size: 28px;
+  }
+
+  .h-leaf {
+    top: 35vh;
+    margin: 0 0 0 -130px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Check 375px and add css here */
+
+  .header-container {
+    margin: 0 20px;
+  }
+
+  .h-image a img {
+    max-width: 70px;
+  }
+
+  .h-content {
+    max-width: 300px;
+  }
+
+  .h-content .h1-text {
+    font-size: 28px;
+    line-height: 120%;
+  }
+
+  .h-content .c2-text p {
+    font-size: 16px;
+  }
+
+  .menu-toggle {
+    font-size: 26px;
+  }
+
+  .h-content {
+    top: 70%;
+  }
+
+  .h-leaf {
+    margin: 0 0 0 -134px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  /* Check 320px and add css here */
+
+  .menu-toggle {
+    font-size: 24px;
+  }
+
+  .h-leaf {
+    top: 30vh;
+    margin: 0 0 0 -140px;
+  }
+}
+
+/* ****************************************************************
+Container Common class
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .container {
+    max-width: 1280px;
+    margin: 70px auto;
+  }
+
+  .heading-h2 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .container {
+    max-width: 1121px;
+    margin: 60px auto;
+  }
+
+  .heading-h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .container {
+    max-width: 940px;
+    margin: 50px auto;
+  }
+
+  .heading-h2 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Check 768px and add css here */
+  #home,
+  #about,
+  #facility,
+  #story,
+  #crew,
+  #review {
+    scroll-margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .container {
+    margin: 40px auto;
+  }
+
+  .heading-h2 {
+    font-size: 30px;
+  }
+}
+
+/* ****************************************************************
+About Us Container
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .about-image img {
+    max-width: 640px;
+  }
+
+  .heading-h2 {
+    font-size: 50px;
+  }
+
+  .about-subheading {
+    font-size: 22px;
+  }
+
+  .about-description .about-paragraph p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .a-leaf {
+    right: -4%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .about-image img {
+    max-width: 560px;
+  }
+
+  .heading-h2 {
+    font-size: 40px;
+  }
+
+  .about-subheading {
+    font-size: 20px;
+  }
+
+  .about-description .about-paragraph p {
+    font-size: 18px;
+  }
+
+  .a-leaf {
+    right: -8%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .about-main {
+    gap: 50px;
+  }
+
+  .about-content {
+    gap: 10px;
+  }
+
+  .about-image {
+    margin: auto 0;
+  }
+
+  .about-image img {
+    max-width: 470px;
+  }
+
+  .heading-h2 {
+    font-size: 34px;
+  }
+
+  .about-subheading {
+    font-size: 18px;
+  }
+
+  .about-description .about-paragraph p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Check 768px and add css here */
+
+  .about-container {
+    padding: 0;
+  }
+
+  .about-main {
+    flex-direction: column;
+    padding: 0 30px;
+    max-width: 100%;
+    gap: 10px;
+    margin: 40px 0;
+  }
+
+  .about-image {
+    margin: auto;
+  }
+
+  .about-image img {
+    max-width: 100%;
+  }
+
+  .h2-about-before {
+    display: block;
+    font-size: 30px;
+  }
+
+  .heading-h2 {
+    font-size: 30px;
+    display: none;
+  }
+
+  .about-subheading {
+    font-size: 18px;
+  }
+
+  .about-description .about-paragraph p {
+    font-size: 16px;
+    max-width: 100%;
+    line-height: 24px;
+  }
+
+  .a-leaf {
+    bottom: 3%;
+    right: -12%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .about-container {
+    padding: 0;
+  }
+
+  .about-main {
+    padding: 0 20px;
+    margin: 40px auto;
+  }
+
+  .about-content {
+    gap: 10px;
+  }
+
+  .h2-about-before {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .heading-h2 {
+    font-size: 24px;
+  }
+
+  .about-subheading {
+    font-size: 18px;
+  }
+
+  .a-leaf {
+    bottom: 2%;
+    right: -28%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Check 375px and add css here */
+
+  .about-main {
+    padding: 0 10px;
+  }
+
+  .a-leaf {
+    display: none;
+  }
+
+  .sidebar-nav.active {
+    top: 12%;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  /* Check 320px and add css here */
+}
+
+/* ****************************************************************
+Our facility Container
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .r-title h2 {
+    font-size: 50px;
+  }
+
+  .rule-image img {
+    max-width: 310px;
+  }
+
+  .rule-content {
+    padding: 10px 20px;
+  }
+
+  .rule-content h3 {
+    font-size: 70px;
+  }
+
+  .rule-content p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .r-title h2 {
+    font-size: 40px;
+  }
+
+  .rule-image img {
+    max-width: 280px;
+  }
+
+  .rule-content h3 {
+    font-size: 60px;
+  }
+
+  .rule-content p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .r-title h2 {
+    font-size: 34px;
+  }
+
+  .rule-content {
+    padding: 10px;
+  }
+
+  .rule-image img {
+    max-width: 235px;
+  }
+
+  .rule-content h3 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Check 768px and add css here */
+
+  .rules {
+    padding: 0 30px;
+  }
+
+  .rules-container {
+    padding: 0;
+  }
+
+  .r-title h2 {
+    font-size: 30px;
+    margin: 40px 0;
+  }
+
+  .rule-image img {
+    max-width: 100%;
+  }
+
+  .upper-part,
+  .lower-part {
+    flex-direction: column;
+  }
+
+  .rules-card-1,
+  .rules-card-2 {
+    gap: 50px;
+  }
+
+  .rules-card-1:nth-child(even),
+  .rules-card-2:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .rules {
+    padding: 0 20px;
+    gap: 10px;
+  }
+
+  .r-title h2 {
+    font-size: 24px;
+  }
+
+  .upper-part,
+  .lower-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rules-card-1:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .rules-card-2:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
+
+  .rules-card-1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .rules-card-2 {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .rule-content {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .rule-content h3 {
+    font-size: 30px;
+  }
+
+  .rule-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Check 375px and add css here */
+}
+
+@media only screen and (max-width: 374px) {
+  /* Check 320px and add css here */
+}
+
+/* ****************************************************************
+business-stories
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .stories-image img {
+    width: 482px;
+  }
+
+  .stories-content {
+    max-width: 768px;
+  }
+
+  .stories-content h1 {
+    font-size: 50px;
+  }
+
+  .stories-content h3 {
+    font-size: 22px;
+  }
+
+  .stories-content .stories-p p {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .stories-image img {
+    width: 418px;
+  }
+
+  .stories-content {
+    max-width: 625px;
+  }
+
+  .stories-content h1 {
+    font-size: 40px;
+  }
+
+  .stories-content h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .stories-image img {
+    width: 346px;
+  }
+
+  .stories-content h2 {
+    font-size: 34px;
+  }
+
+  .stories-content h3 {
+    font-size: 20px;
+  }
+
+  .stories-content .stories-p p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Check 768px and add css here */
+
+  .business-stories {
+    padding: 0;
+  }
+
+  .stories-main {
+    flex-direction: column;
+    padding: 0 30px;
+    max-width: 100%;
+    gap: 10px;
+  }
+
+  .h2-stories-before {
+    display: block;
+    font-size: 30px;
+  }
+
+  .stories-image img {
+    width: 100%;
+  }
+
+  .stories-content {
+    max-width: 100%;
+  }
+
+  .stories-content h2 {
+    font-size: 30px;
+    display: none;
+  }
+
+  .stories-content .stories-p p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .stories-leaf {
+    top: 0%;
+    left: -8%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .stories-main {
+    padding: 0 20px;
+    margin: 40px auto;
+  }
+
+  .stories-leaf {
+    display: none;
+  }
+
+  .h2-stories-before {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .stories-content h1 {
+    font-size: 24px;
+  }
+
+  .stories-content h3 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Check 375px and add css here */
+}
+
+@media only screen and (max-width: 374px) {
+  /* Check 320px and add css here */
+}
+
+/* ****************************************************************
+Information Container
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .info-image img {
+    width: 503px;
+  }
+
+  .info-points {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .information-main {
+    justify-content: space-evenly;
+  }
+
+  .info-image img {
+    width: 440px;
+  }
+
+  .info-title h2 {
+    font-size: 40px;
+  }
+
+  .info-block p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .info-image img {
+    width: 369px;
+  }
+
+  .info-title h2 {
+    font-size: 34px;
+  }
+
+  .info-block p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Check 768px and add css here */
+
+  .information-main {
+    flex-direction: column-reverse;
+    padding: 0 30px;
+    max-width: 100%;
+    gap: 10px;
+    margin: 40px auto;
+  }
+
+  .info-image img {
+    width: 100%;
+  }
+
+  .info-points {
+    margin-top: 20px;
+  }
+
+  .h2-info-before {
+    display: block;
+    font-size: 30px;
+  }
+
+  .info-title h2 {
+    font-size: 30px;
+    display: none;
+  }
+
+  .info-block p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .information-main {
+    padding: 0 20px;
+  }
+
+  .h2-info-before {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .info-title h2 {
+    font-size: 24px;
+  }
+
+  .info-block p {
+    font-size: 16px;
+    text-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Check 375px and add css here */
+}
+
+@media only screen and (max-width: 374px) {
+  /* Check 320px and add css here */
+}
+
+/* ****************************************************************
+Facilities Container
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .f-title h2 {
+    font-size: 50px;
+  }
+
+  .card {
+    width: 406px;
+  }
+
+  .card .card-image img {
+    width: 406px;
+  }
+
+  .facility-leaf {
+    top: 10%;
+    right: -7%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .f-title h2 {
+    font-size: 40px;
+  }
+
+  .card {
+    width: 353px;
+  }
+
+  .card .card-image img {
+    width: 353px;
+  }
+
+  .card-content h3 {
+    font-size: 19px;
+  }
+
+  .facility-leaf {
+    right: -10%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .f-title h2 {
+    font-size: 34px;
+  }
+
+  .card {
+    width: 293px;
+  }
+
+  .card .card-image img {
+    width: 293px;
+  }
+
+  .facility-leaf {
+    right: -12%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .facility-container {
+    padding: 0 30px;
+  }
+
+  .facility-card {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .f-title h1 {
+    font-size: 30px;
+    margin: 40px 0;
+  }
+
+  .card {
+    width: calc(50% - 20px);
+    max-width: 100%;
+  }
+
+  .card .card-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .facility-leaf {
+    top: 2%;
+    right: -14%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .facility-leaf {
+    display: none;
+  }
+
+  .facility-container {
+    padding: 0 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Check 375px and add css here */
+}
+
+@media only screen and (max-width: 374px) {
+  /* Check 320px and add css here */
+}
+
+/* ****************************************************************
+Crew Container
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .crew-image img {
+    width: 590px;
+  }
+
+  .crew-content {
+    max-width: 640px;
+  }
+
+  .crew-content h2 {
+    font-size: 50px;
+  }
+
+  .crew-container .crew-content .crew-p p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .crew-main {
+    gap: 40px;
+  }
+
+  .crew-image img {
+    width: 520px;
+  }
+
+  .crew-content {
+    max-width: 560px;
+  }
+
+  .crew-content h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .crew-main {
+    gap: 30px;
+  }
+
+  .crew-image {
+    margin: auto 0;
+  }
+
+  .crew-image img {
+    width: 440px;
+  }
+
+  .crew-content {
+    max-width: 470px;
+  }
+
+  .crew-content {
+    gap: 10px;
+  }
+
+  .crew-content h2 {
+    font-size: 34px;
+  }
+
+  .crew-container .crew-content .crew-p p {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Check 768px and add css here */
+
+  .crew-container {
+    padding: 0;
+  }
+
+  .crew-main {
+    flex-direction: column;
+    padding: 0 30px;
+    max-width: 100%;
+    gap: 10px;
+  }
+
+  .crew-image img {
+    width: 100%;
+  }
+
+  .crew-content {
+    max-width: 100%;
+  }
+
+  .h2-crew-before {
+    display: block;
+    font-size: 30px;
+  }
+
+  .crew-content h2 {
+    font-size: 30px;
+    display: none;
+  }
+
+  .crew-container .crew-content .crew-p p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .crew-main {
+    padding: 0 20px;
+    margin: 40px auto;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Check 375px and add css here */
+}
+
+@media only screen and (max-width: 374px) {
+  /* Check 320px and add css here */
+}
+
+/* ****************************************************************
+Reviews Container
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .reviews {
+    max-width: 1280px;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .review-title h2 {
+    font-size: 50px;
+  }
+
+  .review-card {
+    max-width: 385px;
+  }
+
+  .review-data {
+    padding: 38px 32px 32px;
+  }
+
+  .review-data .vector-image img {
+    max-width: 20px;
+  }
+
+  .star-image img {
+    max-width: 20px;
+  }
+
+  .review-data p {
+    font-size: 15px;
+  }
+
+  .person-info img {
+    max-width: 58px;
+  }
+
+  .person-info h2 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .review-title h2 {
+    font-size: 40px;
+  }
+
+  .reviews {
+    max-width: 1121px;
+  }
+
+  .review-card {
+    max-width: 320px;
+  }
+
+  .review-data {
+    padding: 34px 28px 28px;
+  }
+
+  .review-leaf {
+    margin: 0 0 0 -60px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .reviews {
+    max-width: 940px;
+  }
+
+  .review-title h2 {
+    font-size: 34px;
+    margin: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Check 768px and add css here */
+
+  .review-container {
+    padding: 0;
+  }
+
+  .review-title h2 {
+    font-size: 30px;
+    margin: 40px 0;
+  }
+
+  .reviews {
+    padding: 0 30px;
+    gap: 30px;
+    max-width: 800px;
+  }
+
+  .review-leaf {
+    margin: 0 0 0 -60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .reviews {
+    max-width: 420px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Check 375px and add css here */
+
+  .review-leaf {
+    margin: 0 0 0 -90px;
+  }
+
+  .sidebar-nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  /* Check 320px and add css here */
+}
+
+/* ****************************************************************
+Footer Container
+**************************************************************** */
+
+@media only screen and (max-width: 1599px) {
+  /* Check 1367px and add css here */
+
+  .f-text h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .f-content-main {
+    max-width: 1280px;
+  }
+
+  .content-inner-2 {
+    max-width: 850px;
+  }
+
+  .link-title h2 {
+    font-size: 22px;
+  }
+
+  .f-image-container {
+    min-height: 675px;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Check 1200px and add css here */
+
+  .f-text h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .f-content-main {
+    max-width: 1121px;
+  }
+
+  .content-inner-2 {
+    max-width: 780px;
+  }
+
+  .link-title h2 {
+    font-size: 20px;
+  }
+
+  .f-image-container {
+    min-height: 577px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* Check 1025px and add css here */
+
+  .f-text h3 {
+    font-size: 24px;
+  }
+
+  .f-content-main {
+    max-width: 940px;
+  }
+
+  .content-inner-2 {
+    max-width: 640px;
+  }
+
+  .f-image-container {
+    min-height: 525px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Check 768px and add css here */
+
+  .f-text h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .f-content-main {
+    padding: 0 30px;
+  }
+
+  .content-inner-2 {
+    max-width: 540px;
+  }
+
+  .f-image-container {
+    min-height: 405px;
+    background-position: center center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Check 480px and add css here */
+
+  .f-content-main {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .f-text h3 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .f-text {
+    margin: 0 auto;
+  }
+
+  .footer-bottom h3 {
+    font-size: 16px;
+  }
+
+  .f-image-container {
+    background-position: -179px 0px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  /* Check 375px and add css here */
+
+  .content-inner-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  /* Check 320px and add css here */
+
+  .content-inner-2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
